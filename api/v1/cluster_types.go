@@ -769,6 +769,10 @@ const (
 
 	// PhaseDefinitionInvalid is set when the cluster definition is invalid
 	PhaseDefinitionInvalid = "Invalid cluster definition"
+
+	// PhaseInstanceCreationFailed is set when a Job that creates an instance
+	// has permanently failed and needs investigation
+	PhaseInstanceCreationFailed = "Failed to create an instance"
 )
 
 // EphemeralVolumesSizeLimitConfiguration contains the configuration of the ephemeral
